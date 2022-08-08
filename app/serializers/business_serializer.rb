@@ -8,8 +8,8 @@ class BusinessSerializer
     "attributes": {
       "destination_city": business[:city],
       "forecast": {
-        "summary": weather[:current_weather][:conditions],
-        "temperature": weather[:current_weather][:temperature]
+        "summary": weather[:current_weather].conditions,
+        "temperature": weather[:current_weather].temperature
       },
       "restaurant": {
         "name": business[:name],
