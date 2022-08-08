@@ -1,6 +1,6 @@
-class WeatherFacade
-  def self.find_weather(coordinates)
-  	data = WeatherService.get_weather(coordinates[:lat],coordinates[:lng])
+class ForecastFacade
+  def self.find_forecast(coordinates)
+  	data = ForecastService.get_forecast(coordinates[:lat],coordinates[:lng])
     current_weather = CurrentWeather.new(data[:current])
     daily_weather = data[:daily][0..4].map do |daily|
       DailyWeather.new(daily)

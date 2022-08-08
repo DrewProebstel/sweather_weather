@@ -1,5 +1,5 @@
-class WeatherService
-  def self.get_weather(lat, lon)
+class ForecastService
+  def self.get_forecast(lat, lon)
   	  response = Faraday.get("https://api.openweathermap.org/data/2.5/onecall?units=imperial") do |faraday|
   	  				faraday.params['appid'] = ENV.fetch('weather_api_key', nil)
   	  				faraday.params['lat'] = lat
