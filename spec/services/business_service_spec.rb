@@ -4,7 +4,7 @@ RSpec.describe BusinessService do
   it 'returns resturant info when given a catagory' do
       VCR.use_cassette("BusinessFacade_facade") do
     	results = BusinessService.get_business("portland,or","chinese")
-
+      binding.pry
     	expect(results).to be_a(Hash)
       expect(results[:businesses]).to be_a(Array)
       expect(results[:businesses][0]).to be_a(Hash)
