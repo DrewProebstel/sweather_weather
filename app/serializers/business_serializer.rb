@@ -1,6 +1,5 @@
 class BusinessSerializer
   def self.serialize(weather, business)
-    binding.pry
     {
   "data": {
     "id": "null",
