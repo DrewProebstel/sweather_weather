@@ -216,21 +216,249 @@
           null
         ]
       },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/facades/business_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/spec/facades/forecast_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/facades/forecast_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          5,
+          null,
+          1,
+          8,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/spec/facades/map_quest_facade_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/facades/map_quest_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/spec/services/business_service_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
       "/Users/drewproebstel/turing/rmodule/whether_sweater/app/services/business_service.rb": {
         "lines": [
           1,
           1,
-          0,
-          0,
-          0,
-          0,
+          2,
+          2,
+          2,
+          2,
           null,
-          0,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/spec/services/forecast_service_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/services/forecast_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/spec/services/map_quest_service_spec.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/services/map_quest_service.rb": {
+        "lines": [
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/poros/current_weather.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/poros/daily_weather.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          5,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/drewproebstel/turing/rmodule/whether_sweater/app/poros/hourly_weather.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          8,
+          8,
+          8,
+          8,
+          8,
+          null,
+          null,
           null,
           null
         ]
       }
     },
-    "timestamp": 1659973873
+    "timestamp": 1659974759
   }
 }

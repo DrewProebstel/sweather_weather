@@ -1,0 +1,276 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.yelp.com/v3/businesses/search?categories=chinese&location=portland,or
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.3.0
+      Authorization:
+      - Bearer FvgnaP_TFVW6aouweZRUJqQjCfq9lV8JVu47CunGc7Y5JHr9kX5jptje7gq46zj-7tAsG5FtkUhYWuwyIQyR3EicTpsKBsuM_5ofzReAfOILflBbGpqH5KkuKCXxYnYx
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      Server:
+      - envoy
+      Ratelimit-Dailylimit:
+      - '5000'
+      X-B3-Sampled:
+      - '0'
+      Ratelimit-Remaining:
+      - '4993'
+      X-Routing-Service:
+      - routing-main--uswest2-5569564ccc-sjl4t; site=public_api_v3
+      Ratelimit-Resettime:
+      - '2022-08-09T00:00:00+00:00'
+      X-Zipkin-Id:
+      - fbd27d8418828dca
+      X-Cloudmap:
+      - routing_uswest2
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-69-185-39-uswest2bprod
+      X-Extlb:
+      - 10-69-185-39-uswest2bprod
+      Cache-Control:
+      - max-age=0, no-store, private, no-transform
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Mon, 08 Aug 2022 15:52:01 GMT
+      Via:
+      - 1.1 varnish
+      X-Served-By:
+      - cache-pdx12323-PDX
+      X-Cache:
+      - MISS
+      X-Cache-Hits:
+      - '0'
+      Vary:
+      - Accept-Encoding
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: ASCII-8BIT
+      string: '{"businesses": [{"id": "C9C79-5egg1_yaUAxrJxLA", "alias": "bing-mi-food-truck-portland-2",
+        "name": "Bing Mi Food Truck", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/54LHtu8evmVc5AcE1ewXjQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/bing-mi-food-truck-portland-2?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 443, "categories": [{"alias": "foodtrucks", "title": "Food
+        Trucks"}, {"alias": "chinese", "title": "Chinese"}, {"alias": "creperies",
+        "title": "Creperies"}], "rating": 4.5, "coordinates": {"latitude": 45.5362156,
+        "longitude": -122.7000932}, "transactions": ["delivery"], "price": "$$", "location":
+        {"address1": "1845 NW 23rd Pl", "address2": "", "address3": "", "city": "Portland",
+        "zip_code": "97210", "country": "US", "state": "OR", "display_address": ["1845
+        NW 23rd Pl", "Portland, OR 97210"]}, "phone": "+19719302968", "display_phone":
+        "(971) 930-2968", "distance": 4241.52395841751}, {"id": "0lXTBIqLkPtSyKQDOYeosQ",
+        "alias": "mama-chows-kitchen-portland", "name": "Mama Chow''s Kitchen", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/tJvc3tQqP6PMbffajGDwRQ/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/mama-chows-kitchen-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 243, "categories": [{"alias": "foodtrucks", "title": "Food
+        Trucks"}, {"alias": "chicken_wings", "title": "Chicken Wings"}, {"alias":
+        "chinese", "title": "Chinese"}], "rating": 4.5, "coordinates": {"latitude":
+        45.5206428, "longitude": -122.6731087}, "transactions": [], "price": "$$",
+        "location": {"address1": "300 SW 2nd Ave", "address2": "", "address3": "",
+        "city": "Portland", "zip_code": "97204", "country": "US", "state": "OR", "display_address":
+        ["300 SW 2nd Ave", "Portland, OR 97204"]}, "phone": "", "display_phone": "",
+        "distance": 1575.4184526079193}, {"id": "8HwwGSHlCEGbJiMDx_fkHg", "alias":
+        "franks-noodle-house-portland", "name": "Frank''s Noodle House", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/BgYz4mWm_5kvceGkfFsk9A/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/franks-noodle-house-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 1179, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "noodles", "title": "Noodles"}], "rating": 3.5, "coordinates": {"latitude":
+        45.5348612, "longitude": -122.6570041}, "transactions": ["pickup", "delivery"],
+        "price": "$$", "location": {"address1": "822 NE Broadway St", "address2":
+        "", "address3": "", "city": "Portland", "zip_code": "97232", "country": "US",
+        "state": "OR", "display_address": ["822 NE Broadway St", "Portland, OR 97232"]},
+        "phone": "+15032881007", "display_phone": "(503) 288-1007", "distance": 2133.0475482812894},
+        {"id": "lwtQddUwAKyQLvKr9PRcOA", "alias": "stretch-the-noodle-portland-3",
+        "name": "Stretch the Noodle", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/jY205kC8M-f-SN4kcT1SPQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/stretch-the-noodle-portland-3?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 412, "categories": [{"alias": "noodles", "title": "Noodles"},
+        {"alias": "chinese", "title": "Chinese"}, {"alias": "foodstands", "title":
+        "Food Stands"}], "rating": 4.5, "coordinates": {"latitude": 45.51955887053344,
+        "longitude": -122.67444359243629}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "232 SW Washington St", "address2": null, "address3":
+        null, "city": "Portland", "zip_code": "97204", "country": "US", "state": "OR",
+        "display_address": ["232 SW Washington St", "Portland, OR 97204"]}, "phone":
+        "", "display_phone": "", "distance": 1638.590174037734}, {"id": "iPVQBxRhnM2QuHkRnGm9VA",
+        "alias": "duck-house-chinese-restaurant-portland", "name": "Duck House Chinese
+        Restaurant", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/EY-lIEgxoYz19qjvJD3PDg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/duck-house-chinese-restaurant-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 830, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "seafood", "title": "Seafood"}, {"alias": "noodles", "title": "Noodles"}],
+        "rating": 4.0, "coordinates": {"latitude": 45.5093492525299, "longitude":
+        -122.682536964826}, "transactions": ["pickup", "delivery"], "price": "$$",
+        "location": {"address1": "1968 SW 5th Ave", "address2": "", "address3": null,
+        "city": "Portland", "zip_code": "97201", "country": "US", "state": "OR", "display_address":
+        ["1968 SW 5th Ave", "Portland, OR 97201"]}, "phone": "+19718018888", "display_phone":
+        "(971) 801-8888", "distance": 2327.496316511272}, {"id": "PwwwyfwC4Jq3AoXFVwQokg",
+        "alias": "mekha-restaurant-portland-2", "name": "Mekha Restaurant", "image_url":
+        "https://s3-media2.fl.yelpcdn.com/bphoto/P9LzECuBj39u8oQG6PPK6A/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/mekha-restaurant-portland-2?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 452, "categories": [{"alias": "vietnamese", "title": "Vietnamese"},
+        {"alias": "cambodian", "title": "Cambodian"}, {"alias": "chinese", "title":
+        "Chinese"}], "rating": 4.0, "coordinates": {"latitude": 45.54677, "longitude":
+        -122.5924}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "6846 NE Sandy Blvd", "address2": "", "address3": "", "city":
+        "Portland", "zip_code": "97213", "country": "US", "state": "OR", "display_address":
+        ["6846 NE Sandy Blvd", "Portland, OR 97213"]}, "phone": "+15037194584", "display_phone":
+        "(503) 719-4584", "distance": 5910.707416350241}, {"id": "3MIhYQRC6XUKZjIZbxRrYA",
+        "alias": "bao-bao-portland-2", "name": "Bao Bao", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/hH9-ost63mE9PRFPymtZNA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/bao-bao-portland-2?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 314, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "comfortfood", "title": "Comfort Food"}, {"alias": "hotdogs", "title":
+        "Fast Food"}], "rating": 4.5, "coordinates": {"latitude": 45.523738, "longitude":
+        -122.6599677}, "transactions": ["pickup", "delivery"], "price": "$$", "location":
+        {"address1": "545 NE Couch St", "address2": null, "address3": "", "city":
+        "Portland", "zip_code": "97232", "country": "US", "state": "OR", "display_address":
+        ["545 NE Couch St", "Portland, OR 97232"]}, "phone": "+15034778911", "display_phone":
+        "(503) 477-8911", "distance": 994.9747620161661}, {"id": "5XDdbjcOZy_ugDf5oPbBlQ",
+        "alias": "master-kong-portland", "name": "Master Kong", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/kHVT0Dv1zncCd9ITgudumw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/master-kong-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 391, "categories": [{"alias": "noodles", "title": "Noodles"},
+        {"alias": "chinese", "title": "Chinese"}], "rating": 4.0, "coordinates": {"latitude":
+        45.50479745761528, "longitude": -122.57583820190509}, "transactions": ["pickup",
+        "delivery"], "price": "$", "location": {"address1": "8435 SE Division St",
+        "address2": "", "address3": null, "city": "Portland", "zip_code": "97266",
+        "country": "US", "state": "OR", "display_address": ["8435 SE Division St",
+        "Portland, OR 97266"]}, "phone": "+19713738248", "display_phone": "(971) 373-8248",
+        "distance": 6220.651533563189}, {"id": "h8t_xJ0PtZrRBSU-HY-7rQ", "alias":
+        "yuan-su-vegetarian-portland", "name": "Yuan Su Vegetarian", "image_url":
+        "https://s3-media4.fl.yelpcdn.com/bphoto/46n-EmnNuWuEoK9oKJGmYA/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/yuan-su-vegetarian-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 301, "categories": [{"alias": "vegetarian", "title": "Vegetarian"},
+        {"alias": "chinese", "title": "Chinese"}], "rating": 4.5, "coordinates": {"latitude":
+        45.49617, "longitude": -122.54831}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "11140 SE Powell Blvd", "address2": "", "address3":
+        null, "city": "Portland", "zip_code": "97266", "country": "US", "state": "OR",
+        "display_address": ["11140 SE Powell Blvd", "Portland, OR 97266"]}, "phone":
+        "+15034775775", "display_phone": "(503) 477-5775", "distance": 8526.081912604546},
+        {"id": "usQRZ_mE5sPCiq9G7aJ64Q", "alias": "kennys-noodle-house-portland",
+        "name": "Kenny''s Noodle House", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/YUeAK8XWZ97HSExE7YXHvA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/kennys-noodle-house-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 547, "categories": [{"alias": "cantonese", "title": "Cantonese"},
+        {"alias": "noodles", "title": "Noodles"}], "rating": 4.0, "coordinates": {"latitude":
+        45.4977760314941, "longitude": -122.577491760254}, "transactions": ["delivery"],
+        "price": "$$", "location": {"address1": "8305 SE Powell Blvd", "address2":
+        "", "address3": "", "city": "Portland", "zip_code": "97266", "country": "US",
+        "state": "OR", "display_address": ["8305 SE Powell Blvd", "Portland, OR 97266"]},
+        "phone": "+15037716868", "display_phone": "(503) 771-6868", "distance": 6290.160088252324},
+        {"id": "XPWCQZJPRu08MtjceGyOaA", "alias": "danwei-canting-portland-3", "name":
+        "Danwei Canting", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/5r9wYfN3VHrFut7ZNASLqA/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/danwei-canting-portland-3?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 484, "categories": [{"alias": "chinese", "title": "Chinese"}],
+        "rating": 4.0, "coordinates": {"latitude": 45.5194749, "longitude": -122.6575608},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "803
+        SE Stark St", "address2": null, "address3": "", "city": "Portland", "zip_code":
+        "97214", "country": "US", "state": "OR", "display_address": ["803 SE Stark
+        St", "Portland, OR 97214"]}, "phone": "+15032366050", "display_phone": "(503)
+        236-6050", "distance": 481.9845560244253}, {"id": "QgS0W43X-9MlHe3jMTDltg",
+        "alias": "good-taste-portland", "name": "Good Taste", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/-8qBm4pg58Z9N3s5U-nbJw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/good-taste-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 441, "categories": [{"alias": "bbq", "title": "Barbeque"},
+        {"alias": "cantonese", "title": "Cantonese"}, {"alias": "noodles", "title":
+        "Noodles"}], "rating": 4.0, "coordinates": {"latitude": 45.523528, "longitude":
+        -122.674161}, "transactions": ["pickup", "delivery"], "price": "$", "location":
+        {"address1": "18 NW 4th Ave", "address2": "", "address3": "", "city": "Portland",
+        "zip_code": "97209", "country": "US", "state": "OR", "display_address": ["18
+        NW 4th Ave", "Portland, OR 97209"]}, "phone": "+15032233838", "display_phone":
+        "(503) 223-3838", "distance": 1782.3052540140275}, {"id": "EmxTyqCuTTs-rHtF9GyoZg",
+        "alias": "zien-hong-portland", "name": "Zien Hong", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/BcgByZkKWkGaaRurNW02YQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/zien-hong-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 435, "categories": [{"alias": "chinese", "title": "Chinese"}],
+        "rating": 4.0, "coordinates": {"latitude": 45.54043, "longitude": -122.60862},
+        "transactions": ["delivery"], "price": "$$", "location": {"address1": "5314
+        NE Sandy Blvd", "address2": "", "address3": "", "city": "Portland", "zip_code":
+        "97213", "country": "US", "state": "OR", "display_address": ["5314 NE Sandy
+        Blvd", "Portland, OR 97213"]}, "phone": "+15032884743", "display_phone": "(503)
+        288-4743", "distance": 4484.96741501854}, {"id": "EMJPN1Elk3_I1Qx1ZJpjPg",
+        "alias": "h-k-caf\u00e9-portland-3", "name": "H K Caf\u00e9", "image_url":
+        "https://s3-media3.fl.yelpcdn.com/bphoto/1J3f2SMbHg9Wj8QTeaBaGw/o.jpg", "is_closed":
+        false, "url": "https://www.yelp.com/biz/h-k-caf%C3%A9-portland-3?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 837, "categories": [{"alias": "dimsum", "title": "Dim Sum"},
+        {"alias": "noodles", "title": "Noodles"}, {"alias": "seafood", "title": "Seafood"}],
+        "rating": 3.5, "coordinates": {"latitude": 45.49052, "longitude": -122.5781},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "4410 SE 82nd Ave", "address2": "Ste 1000", "address3": "", "city": "Portland",
+        "zip_code": "97266", "country": "US", "state": "OR", "display_address": ["4410
+        SE 82nd Ave", "Ste 1000", "Portland, OR 97266"]}, "phone": "+15037718866",
+        "display_phone": "(503) 771-8866", "distance": 6566.913703830298}, {"id":
+        "Mtflfhc3oLiD9Gm5cTVZhw", "alias": "shandong-restaurant-portland", "name":
+        "Shandong Restaurant", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/UojFvZFLGrZHFOlYvorfDw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/shandong-restaurant-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 744, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "noodles", "title": "Noodles"}], "rating": 3.5, "coordinates": {"latitude":
+        45.53497, "longitude": -122.62429}, "transactions": ["pickup", "delivery"],
+        "price": "$$", "location": {"address1": "3724 NE Broadway St", "address2":
+        "", "address3": "", "city": "Portland", "zip_code": "97232", "country": "US",
+        "state": "OR", "display_address": ["3724 NE Broadway St", "Portland, OR 97232"]},
+        "phone": "+15032870331", "display_phone": "(503) 287-0331", "distance": 3153.9410045135355},
+        {"id": "-yLeL8YT6bH9hap80AUyuw", "alias": "boke-bowl-portland-2", "name":
+        "Boke Bowl", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/2LuPVZd084ekKAPprvxwLQ/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/boke-bowl-portland-2?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 615, "categories": [{"alias": "ramen", "title": "Ramen"},
+        {"alias": "chinese", "title": "Chinese"}, {"alias": "noodles", "title": "Noodles"}],
+        "rating": 3.5, "coordinates": {"latitude": 45.51532, "longitude": -122.66553},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "1028 SE Water Ave", "address2": "", "address3": "", "city": "Portland", "zip_code":
+        "97214", "country": "US", "state": "OR", "display_address": ["1028 SE Water
+        Ave", "Portland, OR 97214"]}, "phone": "+15037195698", "display_phone": "(503)
+        719-5698", "distance": 892.5410157421725}, {"id": "1AhWHWtBLB4UherVKWae7Q",
+        "alias": "pot-and-spicy-portland-3", "name": "Pot & Spicy", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/NvlbHCEifqu4rsU0Y2Cd0A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/pot-and-spicy-portland-3?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 129, "categories": [{"alias": "szechuan", "title": "Szechuan"}],
+        "rating": 4.5, "coordinates": {"latitude": 45.507702, "longitude": -122.5781642},
+        "transactions": [], "price": "$", "location": {"address1": "8230 SE Harrison
+        St", "address2": "Ste \u00a0345", "address3": null, "city": "Portland", "zip_code":
+        "97216", "country": "US", "state": "OR", "display_address": ["8230 SE Harrison
+        St", "Ste \u00a0345", "Portland, OR 97216"]}, "phone": "+15037887267", "display_phone":
+        "(503) 788-7267", "distance": 5985.94977725183}, {"id": "6xk8K08Q1l2j9DXIA5ePKQ",
+        "alias": "powells-seafood-restaurant-portland", "name": "Powell''s Seafood
+        Restaurant", "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/Z1nciV2boH96yZ1m7aZk5A/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/powells-seafood-restaurant-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 245, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "seafood", "title": "Seafood"}], "rating": 4.0, "coordinates": {"latitude":
+        45.49771, "longitude": -122.59486}, "transactions": ["delivery"], "price":
+        "$$", "location": {"address1": "6633 SE Powell Blvd", "address2": "", "address3":
+        "", "city": "Portland", "zip_code": "97206", "country": "US", "state": "OR",
+        "display_address": ["6633 SE Powell Blvd", "Portland, OR 97206"]}, "phone":
+        "+15037753901", "display_phone": "(503) 775-3901", "distance": 5037.7508782680925},
+        {"id": "h3Nmq44WrQulpABbl7GG5Q", "alias": "uncle-tsangs-kitchen-portland",
+        "name": "Uncle Tsang''s Kitchen", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/ezWmINTdhorLnPp2NgaHQg/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/uncle-tsangs-kitchen-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 91, "categories": [{"alias": "chinese", "title": "Chinese"},
+        {"alias": "vegetarian", "title": "Vegetarian"}], "rating": 4.5, "coordinates":
+        {"latitude": 45.464098, "longitude": -122.654566}, "transactions": [], "price":
+        "$", "location": {"address1": "1112 SE Tacoma St", "address2": "", "address3":
+        null, "city": "Portland", "zip_code": "97202", "country": "US", "state": "OR",
+        "display_address": ["1112 SE Tacoma St", "Portland, OR 97202"]}, "phone":
+        "", "display_phone": "", "distance": 5747.478056383742}, {"id": "UfIplrRvve7Z-ug1R9Sf4w",
+        "alias": "ling-garden-chinese-restaurant-portland", "name": "Ling Garden Chinese
+        Restaurant", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WlpzW-KQjpkMcYDw5mZgTw/o.jpg",
+        "is_closed": false, "url": "https://www.yelp.com/biz/ling-garden-chinese-restaurant-portland?adjust_creative=SZ9BFPG80XnSozGB7Um4Tg&utm_campaign=yelp_api_v3&utm_medium=api_v3_business_search&utm_source=SZ9BFPG80XnSozGB7Um4Tg",
+        "review_count": 258, "categories": [{"alias": "chinese", "title": "Chinese"}],
+        "rating": 4.0, "coordinates": {"latitude": 45.5294333, "longitude": -122.6946849},
+        "transactions": ["pickup", "delivery"], "price": "$$", "location": {"address1":
+        "931 NW 21st Ave", "address2": "", "address3": "", "city": "Portland", "zip_code":
+        "97209", "country": "US", "state": "OR", "display_address": ["931 NW 21st
+        Ave", "Portland, OR 97209"]}, "phone": "+15032276052", "display_phone": "(503)
+        227-6052", "distance": 3516.061107007744}], "total": 156, "region": {"center":
+        {"longitude": -122.65411376953125, "latitude": 45.515785397030584}}}'
+  recorded_at: Mon, 08 Aug 2022 15:52:01 GMT
+recorded_with: VCR 6.1.0
